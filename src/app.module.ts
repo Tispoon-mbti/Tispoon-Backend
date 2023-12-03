@@ -1,7 +1,8 @@
 import { Module } from '@nestjs/common';
+import { MbtiModule } from './mbti/mbti.module';
 
 @Module({
-  imports: [],
+  imports: [MbtiModule],
   controllers: [],
   providers: [],
 })
